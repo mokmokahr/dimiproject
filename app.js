@@ -10,10 +10,11 @@ app.listen(3000,()=>{
 
 const home = require('./routes/index');
 const login = require('./routes/login');
-const test = require('./routes/test');
-
+const main = require('./routes/main');
+const signup = require('./routes/signup');
 
 app.use(express.static(__dirname + '/public'));
 app.use('/', home);
 app.use('/',login);
-app.use('/',test);
+app.use('/',main);
+app.use('/',signup);

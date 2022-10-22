@@ -1,5 +1,4 @@
 *{
-    margin: 0;
     font-size: 20px;
     color: white;
 }
@@ -20,12 +19,8 @@
     border-radius: 5rem;
 }
 
-#container>div#inputbox-container{
-    display: flex;
-    flex-direction: column;
-}
-
 input{
-    margin: 0.3rem;
+    margin: 0.2rem;
     color: black;
 }
+
